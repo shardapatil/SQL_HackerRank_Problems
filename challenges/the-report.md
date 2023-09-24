@@ -40,6 +40,8 @@ Jane (grade 9)
 Julia (grade 9)
 Scarlet (grade 8)
 
+## Solution
+
 ```
 select case when g.Grade >= 8 then s.Name
         else null end, Grade, Marks
